@@ -1,13 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test Latihan RevoU Tegar</title>
-  </head>
-  <body>
-    <h1>Hello World</h1>
-    <h2>Welcome to RevoU Tegar</h2>
-    <p>This is a test page for RevoU Tegar.</p>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Revou Bootcamp</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <p class="text-3xl pb-4 text-blue-500 font-bold ml-6 mt-6 bg-yellow-100">
+    Hello world!
+  </p>
+  <hr/>
+  <p>Halo, nama saya <br/> Jamal </p>
+  <h1>Ini heading 1</h1>
+  <h2>Ini heading 2</h2>
+  <h3>Ini heading 3</h3>
+  <h4>Ini heading 4</h4>
+  <h5>Ini heading 5</h5>
+  <h6>Ini heading 6</h6>
+  <p>Teks ini ada <b>bold</b>,nya <i>italic</i>nya.</p>
+  <p>Ini adalah paragraf baru yang ke <sub>dua</sub> dan ke <sup>tiga</sup>.</p>
+  <h1>Bullet point</h1>
+  <ul type="disc">
+    <li>Pisang <p>Ini adalah pisang</p></li>
+    <li>Jeruk 
+    <li>Apel 
+  </ul>
+  <h1>Urutan Angka</h1>
+  <ol type="1">
+    <li>Buka umamusume</li>
+    <li>lakukan story career event</li>
+    <li>Iakukan berulah sampai dapat support goldship</li>
+    <li>selesai</li>
+  </ol>
+  <h1>Tabel</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nama</th>
+        <th>Usia</th>
+        <th>Kota</th>
+      </tr>
+      <tr>
+        <td>Mejiro Mcqueen</td>
+        <td>3</td>
+        <td>Tokyo</td>
+      </tr>
+      <tr>
+        <td>Tokai Teio</td>
+        <td>2</td>
+        <td>Tokyo</td>
+      </tr>
+      <tr>
+        <td>Special Week</td>
+        <td>3</td>
+        <td>Tokyo</td>
+      </tr>
+    </thead>
+  </table>
+
+  <h1>Gambar</h1>
+  <img src="./3513350_53.jpg" alt="Gambar Istri" width="300"/>
+
+  <h1>Link</h1>
+  <p>ini adalah link ke <a href="https://www.google.com" target="_blank">Google</a></p>
+
+  <h1>Form Contract</h1>
+  <form action="https://www.google.com" method="GET">
+    <label for="nama">Nama:</label><br/>
+    <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap"/><br/>
+    <label for="email">Email:</label><br/>
+    <input type="email" id="email" name="email" placeholder="Masukkan email"/><br/>
+    <label for="password">Password:</label><br/>
+    <input type="password" id="password" name="password" placeholder="Masukkan password"/><br/>
+    <label for="jenis_kelamin">Jenis Kelamin:</label><br/>
+    <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki"/>
+    <label for="laki-laki">Laki-laki</label><br/>
+    <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan"/>
+    <label for="perempuan">Perempuan</label><br/>
+
+    <label for="Makanan">Makanan Favorit:</label>
+    <select id="Makanan" name="Makanan">
+      <option value="nasi_goreng">Nasi Goreng</option>
+      <option value="sate">Sate</option>
+      <option value="bakso">Bakso</option>
+      <option value="mie_ayam">Mie Ayam</option>
+    </select><br/>
+
+    <label for="Comment">Comment:</label><br/>
+    <textarea id="Comment" name="Comment" rows="4" cols="50" placeholder="Masukkan komentar"></textarea><br/>
+    <input type="checkbox" id="setuju" name="setuju"/>
+    <label for="setuju">Saya setuju dengan syarat dan ketentuan yang berlaku</label><br/>
+    <input type="submit" value="Kirim"/>
+    <input type="reset" value="Reset"/>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam distinctio libero rem nesciunt sit fugiat dolorem, nihil quaerat facilis, in soluta explicabo fugit, odit esse impedit repellat delectus facere est.</p>
+</body>
 </html>
